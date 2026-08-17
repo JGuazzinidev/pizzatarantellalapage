@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Material original del cliente (copia servida en public/media)
+/media
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

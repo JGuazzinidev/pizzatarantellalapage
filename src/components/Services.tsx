@@ -5,9 +5,9 @@ const serviceItems = [
       'Una experiencia culinaria en vivo para cumpleaños, aniversarios y celebraciones íntimas con sello artesanal.',
   },
   {
-    title: 'Corporativos',
+    title: 'Corporativos y Festivales',
     description:
-      'Servicio gastronómico de alto estándar para reuniones ejecutivas, lanzamientos y activaciones de marca.',
+      'Servicio gastronómico de alto estándar para reuniones ejecutivas, lanzamientos, activaciones de marca y festivales.',
   },
   {
     title: 'Matrimonios',
