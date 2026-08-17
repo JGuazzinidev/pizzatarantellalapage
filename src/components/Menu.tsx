@@ -66,7 +66,7 @@ function Menu() {
               key={dish.name}
               className="reveal group overflow-hidden rounded-3xl bg-white shadow-[0_18px_40px_rgba(0,0,0,0.10)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_26px_55px_rgba(0,0,0,0.18)]"
             >
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative aspect-square overflow-hidden">
                 <img
                   src={dish.image}
                   alt={`${dish.name} de Tarantella`}
@@ -90,14 +90,13 @@ function Menu() {
         </div>
 
         <div className="reveal mt-14 grid items-center gap-8 rounded-3xl bg-[#111111] p-6 md:grid-cols-2 md:p-10">
-          <div className="overflow-hidden rounded-2xl shadow-2xl">
+          <div className="mx-auto w-full max-w-[320px] overflow-hidden rounded-2xl bg-black shadow-2xl">
             <video
               src="/media/tarantella-video.mp4"
-              poster="/media/fachada-tarantella.jpeg"
               controls
               playsInline
               preload="metadata"
-              className="h-full w-full object-cover"
+              className="aspect-[480/848] w-full object-cover"
             />
           </div>
           <div>

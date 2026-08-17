@@ -125,8 +125,17 @@ function ContactForm() {
           )}
           {status === 'error' && (
             <p className="mt-4 text-sm font-medium text-[#c53030]">
-              No pudimos enviar tu solicitud en este momento. Revisa
-              `VITE_FORMSPREE_ENDPOINT` o escríbenos por WhatsApp.
+              No pudimos enviar tu solicitud en este momento. Escríbenos
+              directamente por{' '}
+              <a
+                href="https://wa.me/56937191121"
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-2 hover:text-[#111111]"
+              >
+                WhatsApp al +569 3719 1121
+              </a>{' '}
+              y te respondemos al tiro.
             </p>
           )}
         </form>
