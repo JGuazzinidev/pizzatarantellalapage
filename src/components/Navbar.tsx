@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { messages, whatsappLink } from '../lib/whatsapp'
 
 const navLinks = [
   { label: 'Inicio', href: '#home' },
@@ -61,7 +62,9 @@ function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#contact"
+            href={whatsappLink(messages.evento)}
+            target="_blank"
+            rel="noreferrer"
             className="hidden rounded-full bg-[#c53030] px-5 py-2.5 text-sm font-semibold text-[#fdfcf8] shadow-[0_12px_26px_rgba(197,48,48,0.35)] transition hover:translate-y-[-2px] hover:bg-[#b02222] md:inline-flex"
           >
             Cotiza tu Evento
@@ -96,7 +99,9 @@ function Navbar() {
               </a>
             ))}
             <a
-              href="#contact"
+              href={whatsappLink(messages.evento)}
+              target="_blank"
+              rel="noreferrer"
               onClick={handleMobileLinkClick}
               className="mt-2 inline-flex justify-center rounded-full bg-[#c53030] px-5 py-2.5 text-sm font-semibold text-[#fdfcf8]"
             >

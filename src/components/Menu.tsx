@@ -43,6 +43,8 @@ const dishes = [
   },
 ]
 
+import { messages, whatsappLink } from '../lib/whatsapp'
+
 function Menu() {
   return (
     <section id="menu" className="relative bg-[#fdfcf8] py-20">
@@ -112,7 +114,9 @@ function Menu() {
               cada invitado reciba su plato recién hecho.
             </p>
             <a
-              href="#contact"
+              href={whatsappLink(messages.evento)}
+              target="_blank"
+              rel="noreferrer"
               className="mt-8 inline-flex rounded-full bg-[#d69e2e] px-7 py-3 text-sm font-semibold text-[#111111] transition hover:translate-y-[-2px] hover:bg-[#c58f25]"
             >
               Cotiza tu Evento

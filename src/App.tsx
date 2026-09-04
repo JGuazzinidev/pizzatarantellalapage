@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import About from './components/About'
-import ContactForm from './components/ContactForm'
+import Contact from './components/Contact'
 import Hero from './components/Hero'
 import Menu from './components/Menu'
 import Navbar from './components/Navbar'
@@ -40,7 +40,7 @@ function App() {
         <About />
         <Menu />
         <Services />
-        <ContactForm />
+        <Contact />
       </main>
       <footer className="relative z-10 bg-[#111111] px-4 py-12 text-[#fdfcf8]/80 md:px-8">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-8 text-center">

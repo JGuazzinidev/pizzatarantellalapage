@@ -1,3 +1,5 @@
+import { messages, whatsappLink } from '../lib/whatsapp'
+
 function Hero() {
   return (
     <section
@@ -26,10 +28,12 @@ function Hero() {
           vivo para tu celebración.
         </p>
         <a
-          href="#contact"
-          className="mt-10 inline-flex rounded-full bg-[#d69e2e] px-7 py-3 text-sm font-semibold text-[#111111] shadow-[0_12px_30px_rgba(214,158,46,0.35)] transition hover:translate-y-[-2px] hover:bg-[#c58f25]"
+          href={whatsappLink(messages.evento)}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-10 inline-flex items-center gap-2 rounded-full bg-[#d69e2e] px-7 py-3 text-sm font-semibold text-[#111111] shadow-[0_12px_30px_rgba(214,158,46,0.35)] transition hover:translate-y-[-2px] hover:bg-[#c58f25]"
         >
-          Solicita tu Fecha
+          Solicita tu Fecha por WhatsApp
         </a>
       </div>
     </section>
