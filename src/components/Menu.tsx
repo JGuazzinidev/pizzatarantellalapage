@@ -3,42 +3,42 @@ const dishes = [
     name: 'Margherita',
     category: 'Pizza',
     description:
-      'Salsa de tomate, mozzarella fundida, tomate cherry, aceitunas y albahaca fresca.',
+      'Salsa pomodoro, mozzarella, tomates cherry, aceitunas negras y sevillanas, un toque de albahaca fresca.',
     image: '/media/margherita.jpeg',
   },
   {
     name: 'Quattro Formaggi',
     category: 'Pizza',
     description:
-      'Cuatro quesos seleccionados con cebolla morada y un toque de orégano.',
+      'Quesos cheddar, roquefort, mozzarella y cabra, suaves láminas de cebolla morada y toques de aceite de oliva.',
     image: '/media/quattro-formaggi.jpeg',
   },
   {
     name: 'Gamberetto',
     category: 'Pizza',
     description:
-      'Camarones, aceitunas verdes, pimiento rojo, tomate cherry y albahaca.',
+      'Camarones ecuatorianos, aceitunas sevillanas, tomates cherry y toques de albahaca natural.',
     image: '/media/gamberetto.jpeg',
   },
   {
     name: 'Fontana di Pasta',
     category: 'Pasta',
     description:
-      'Bandeja para compartir con salsas bolognesa, blanca y pesto de espinaca.',
+      '2 pastas a elección, idealmente para 3 a 4 comensales: cannelloni, lasagna, ñoquis o fettuccini. Siempre con alternativas veganas y vegetarianas.',
     image: '/media/fontana-di-pasta.jpeg',
   },
   {
-    name: 'Gnocchi Bolognesa',
+    name: 'Gnocchi de Papa',
     category: 'Pasta',
     description:
-      'Ñoquis caseros con salsa bolognesa de cocción lenta y parmesano en hebras.',
+      'Ñoquis caseros de papa natural, con salsa a elección: bolognesa, pesto, camarón crema y albahaca, o alfredo.',
     image: '/media/gnocchi-bolognesa.jpeg',
   },
   {
-    name: 'Canelones',
+    name: 'Cannelloni',
     category: 'Pasta',
     description:
-      'Rellenos de espinaca o bolognesa, gratinados al horno con salsa de la casa.',
+      'Exquisita masa suave de panqueques, rellenos de espinaca, crema y salsa bolognesa.',
     image: '/media/canelones.jpeg',
   },
 ]

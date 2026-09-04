@@ -5,7 +5,7 @@ function Hero() {
       className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-20 text-center"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.45)), url('/media/local-tarantella.jpeg')",
+          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.45)), url('/media/equipo-tarantella.jpeg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -19,11 +19,11 @@ function Hero() {
           Eventos Pizza Tarantella
         </p>
         <h1 className="font-serif text-4xl leading-tight text-[#fdfcf8] md:text-6xl">
-          La Auténtica Pizza a la Piedra en tu Evento
+          La Auténtica Pizza a la Piedra y Pastas Artesanales en tu Evento
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-base text-[#fdfcf8]/90 md:text-xl">
-          Desde Buenos Aires hasta Santiago: recetas de familia, pizzas y
-          pastas artesanales y cocina en vivo para tu celebración.
+          Desde Buenos Aires hasta Santiago: recetas de familia y cocina en
+          vivo para tu celebración.
         </p>
         <a
           href="#contact"
