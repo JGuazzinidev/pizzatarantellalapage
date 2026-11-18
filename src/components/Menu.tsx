@@ -44,6 +44,7 @@ const dishes = [
 ]
 
 import { messages, whatsappLink } from '../lib/whatsapp'
+import Carta from './Carta'
 
 function Menu() {
   return (
@@ -90,6 +91,8 @@ function Menu() {
             </article>
           ))}
         </div>
+
+        <Carta />
 
         <div className="reveal mt-14 grid items-center gap-8 rounded-3xl bg-[#111111] p-6 md:grid-cols-2 md:p-10">
           <div className="mx-auto w-full max-w-[320px] overflow-hidden rounded-2xl bg-black shadow-2xl">
